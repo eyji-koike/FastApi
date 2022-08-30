@@ -19,7 +19,7 @@ def format_products(pk: str):
         'id': product.pk,
         'name': product.name,
         'price': product.price,
-        'qunatity': product.quantity
+        'quantity': product.quantity
     }
 
 

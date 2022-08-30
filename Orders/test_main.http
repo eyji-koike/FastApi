@@ -9,3 +9,12 @@ GET http://127.0.0.1:8000/hello/User
 Accept: application/json
 
 ###
+POST http://localhost:8000/orders
+Content-Type: application/json
+
+{
+  "id": {{pk}},
+  "quantity": 2
+}
+
+###
