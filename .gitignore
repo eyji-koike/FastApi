@@ -6,3 +6,5 @@
 /Orders/.idea/
 /Inventory/.idea/
 /*/.env
+.DS_Store
+*.pyc
